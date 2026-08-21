@@ -1,0 +1,17 @@
+# Global Demographics and Economic Indicators Analysis
+
+## 📌 Project Overview
+An end-to-end exploratory data analysis (EDA) and interactive dashboard project examining macro-economic metrics, population distributions, and literacy rates across 227 countries. The goal was to uncover how national wealth output scales with educational infrastructure and sector contributions.
+
+## 🛠️ Tech Stack
+* **Data Processing & EDA:** Python (Pandas, NumPy)
+* **Visualization:** Power BI, Seaborn, Matplotlib
+
+## 🔍 Key Insights & Findings
+* **Macro KPIs:** Tracked global benchmarks including an average GDP per capita and weighted global literacy rates.
+* **Wealth Correlation:** Demonstrated a direct scaling relationship between national literacy distribution and economic output.
+* **Sector Breakdown:** Analyzed regional contributions across Agriculture, Industry, and Services to spot structural economic dependencies.
+
+## 📂 Repository Structure
+* `notebooks/` - Contains the Python data cleaning and exploratory analysis scripts.
+* `dashboards/` - Contains the Power BI `.pbix` file.
