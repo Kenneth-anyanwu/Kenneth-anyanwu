@@ -1,0 +1,30 @@
+Countries of the World: Exploratory Data Analysis & Demographic Modeling
+Project Overview
+An end-to-end Exploratory Data Analysis (EDA) and statistical modeling project executed in Python (Jupyter Notebook), analyzing global demographic, geographic, and economic indicators across 227 countries. This project investigates structural socio-economic relationships, regional disparities in birth/death rates, and global population concentration patterns.
+
+Key Performance Indicators & Dataset Scope
+Dataset Scale: 227 countries and 20 multi-dimensional socio-economic and geographical features.
+
+Core Metrics Tracked: Population density, net migration, infant mortality, GDP per capita, literacy rates, phone penetration, and regional demographic shares.
+
+Data Cleansing & Preprocessing: Handled specialized comma-decimal separators, managed missing values across heterogeneous data types, and engineered structural feature transformations via Pandas.
+
+Core Visualizations & Analytical Layout
+Correlation Matrix Heatmap: Evaluates multi-collinearity and statistical dependencies across numeric indicators like GDP, literacy, infant mortality, and population metrics using Seaborn.
+
+Regional Distribution Boxplots: Visualizes the spread and outlier distribution of GDP per capita across distinct global regions.
+
+Clustered Column Charts: Contrasts regional birth rates versus death rates side-by-side to highlight demographic transitions.
+
+Stacked Bar Charts: Models the population concentration of top global superpowers (e.g., China, India, United States) against the rest of the world.
+
+Scatter Plots with Hue Segregation: Maps GDP per capita against literacy rates, segmented by geographic region to analyze developmental correlations.
+
+Technical Stack & Libraries
+Language: Python
+
+Data Manipulation & Analysis: NumPy, Pandas
+
+Data Visualization: Matplotlib, Seaborn
+
+Environment: Jupyter Notebook (Anaconda environment)
