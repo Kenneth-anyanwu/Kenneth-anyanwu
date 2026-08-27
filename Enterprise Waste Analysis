@@ -1,0 +1,20 @@
+# Enterprise Waste Analysis Dashboard
+
+## Project Overview
+An end-to-end Enterprise Sustainability and Waste Management Business Intelligence solution developed in Microsoft Power BI. This dashboard tracks, analyzes, and models large-scale industrial waste generation, evaluating disposal versus recovery metrics across multiple operational categories from 2023 to 2026.
+
+## Key Performance Indicators (KPIs) & Scale
+* **Total Waste Quantity:** 17.09 Million units (17.07M kg / 21K Liters).
+* **Waste Recovery Efficiency:** 41.88% overall waste recovery rate tracked across active operational facilities.
+* **Dataset Scope:** 1.309K active records capturing multi-year longitudinal trends.
+
+## Core Visualizations & Analytical Layout
+* **Waste Trend by Category (2023–2026):** Multi-year area chart visualizing longitudinal shifts and volume spikes across waste categories.
+* **Waste Form Split:** Donut chart evaluating unit distribution between mass (kg) and volume (L).
+* **Daily Volume Trend:** Time-series line chart tracking granular daily fluctuations in waste generation through 2024–2026.
+* **Waste Category Breakdown & Disposal vs. Recovery:** Comparative bar charts measuring total disposed versus recovered quantities across Food Waste, Paper Waste, Plastic, Metal, and Oil Waste.
+
+## Technical Stack & Modeling
+* **Tool:** Microsoft Power BI
+* **Data Modeling:** Star schema structure incorporating fact and dimension tables (`_Fact_Waste`, `Dim_Date`, and custom measure tables).
+* **DAX & Calculations:** Custom measures developed for dynamic aggregation, percentage recovery ratios, and active record tracking.
