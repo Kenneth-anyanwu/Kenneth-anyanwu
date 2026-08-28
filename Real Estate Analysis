@@ -1,0 +1,21 @@
+# Real Estate Housing Price Prediction & Exploratory Data Analysis
+
+## Project Overview
+An end-to-end Exploratory Data Analysis (EDA) and predictive feature investigation project executed in Python (Jupyter Notebook), analyzing residential real estate characteristics and property valuation datasets. This project identifies primary drivers of housing prices, evaluates missing data structures, and models multi-variable economic correlations.
+
+## Key Performance Indicators & Dataset Scope
+* **Dataset Scale:** Multi-column real estate records spanning numerical and categorical housing attributes (including LotArea, OverallQual, YearBuilt, and SalePrice).
+* **Missing Value Audit:** Programmatic tracking and sorting of null counts across properties to handle data integrity prior to feature modeling.
+* **Core Valuation Metrics:** Evaluates property square footage, overall material/finish quality ratings, and neighborhood pricing variations against final sale prices.
+
+## Core Visualizations & Analytical Layout
+* **Top Features Correlation Bar Chart:** Horizontal Seaborn bar chart ranking the highest correlated numerical features against housing sale prices.
+* **Scatter Plots with Color Gradient (Hue):** Multi-variable scatter mapping evaluating relationships between continuous variables like Living Area (GrLivArea) and SalePrice, weighted by overall quality tiers.
+* **Correlation Heatmap Matrix:** Comprehensive correlation grid tracking statistical dependencies across numerical real estate indicators.
+* **Distribution and Trend Plots:** Visualizes multi-feature spreads to identify market outliers and skewed valuation clusters.
+
+## Technical Stack & Libraries
+* **Language:** Python
+* **Data Manipulation & Analysis:** NumPy, Pandas
+* **Data Visualization:** Matplotlib, Seaborn
+* **Environment:** Jupyter Notebook (Anaconda environment)
